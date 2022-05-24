@@ -1,0 +1,603 @@
+
+                                      ARENA Simulation Results
+                                        luisecv76@hotmail.com
+
+                                  Summary for Replication 1 of 1
+
+Project: Proyecto Final                                              Run execution date : 5/24/2022
+Analyst: le.cv@lasallistas.org.mx                                    Model revision date: 5/24/2022
+
+Replication ended at time      : 18.5 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Ascenso y Descenso PinS.TotalTimePerEntity  .00760      3.1699E-4 .00282     .02159        590    
+Ascenso y Descenso Moct.TotalTimePerEntity  .00782      3.3782E-4 .00278     .02040        590    
+Ascenso y Descenso Bald.WaitTimePerEntity    5.1708E-4  1.6202E-4 .00000     .01140        590    
+Ascenso y Descenso Cand.WaitTimePerEntity    8.9807E-4  2.2272E-4 .00000     .01118        590    
+Ascenso y Descenso SanL.WaitTimePerEntity    6.4662E-4  1.9104E-4 .00000     .01374        590    
+Ascenso y Descenso Moct.VATimePerEntity     .00706      1.7871E-4 .00278     .01111        590    
+Ascenso y Descenso Pant.WaitTimePerEntity   .00121      3.6077E-4 .00000     .01654        590    
+Ascenso y Descenso PinS.WaitTimePerEntity    7.2300E-4  1.8729E-4 .00000     .01348        590    
+Ascenso y Descenso BPA.VATimePerEntity      .00687      2.2198E-4 .00278     .01110        590    
+Ascenso y Descenso Tac.WaitTimePerEntity     7.8691E-4  1.9804E-4 .00000     .01356        590    
+Ascenso y Descenso Bal.WaitTimePerEntity     7.2222E-4  2.1630E-4 .00000     .01246        590    
+Ascenso y Descenso Obs.VATimePerEntity      .00685      2.3306E-4 .00278     .01111        590    
+Ascenso y Descenso GF.VATimePerEntity       .00670      2.0386E-4 .00280     .01111        590    
+Ascenso y Descenso Tac.VATimePerEntity      .00684      2.1633E-4 .00280     .01110        590    
+Ascenso y Descenso Bal.VATimePerEntity      .00703      2.1928E-4 .00278     .01111        590    
+Ascenso y Descenso SDA.WaitTimePerEntity     5.7054E-4  2.2176E-4 .00000     .01406        590    
+Ascenso y Descenso GF.WaitTimePerEntity      7.7657E-4  2.2422E-4 .00000     .01314        590    
+Ascenso y Descenso PinS.VATimePerEntity     .00688      2.1273E-4 .00279     .01111        590    
+Ascenso y Descenso Chapu.VATimePerEntity    .00721      1.9611E-4 .00281     .01111        590    
+Ascenso y Descenso Sevi.WaitTimePerEntity    5.7555E-4  1.7523E-4 .00000     .01070        590    
+Ascenso y Descenso Merc.WaitTimePerEntity    6.9401E-4 (Corr)     .00000     .01322        590    
+Ascenso y Descenso SDA.VATimePerEntity      .00689      2.3648E-4 .00278     .01110        590    
+Ascenso y Descenso Zarag.TotalTimePerEntit  .00776      2.8770E-4 .00280     .02280        590    
+Ascenso y Descenso GF.TotalTimePerEntity    .00748      3.1376E-4 .00280     .02052        590    
+Ascenso y Descenso Tac.TotalTimePerEntity   .00763      3.1020E-4 .00282     .02089        590    
+Ascenso y Descenso Bal.TotalTimePerEntity   .00775      3.6155E-4 .00278     .02191        590    
+Ascenso y Descenso Chapu.TotalTimePerEntit  .00776      2.8751E-4 .00284     .02259        590    
+Ascenso y Descenso BPA.WaitTimePerEntity     5.6653E-4  1.8581E-4 .00000     .01093        590    
+Ascenso y Descenso Bald.VATimePerEntity     .00692      2.0523E-4 .00278     .01111        590    
+Ascenso y Descenso Cand.VATimePerEntity     .00701      1.9865E-4 .00279     .01110        590    
+Ascenso y Descenso SanL.VATimePerEntity     .00691      1.8492E-4 .00278     .01109        590    
+Ascenso y Descenso Pant.VATimePerEntity     .00697      2.0906E-4 .00278     .01110        590    
+Ascenso y Descenso Cuau.WaitTimePerEntity    6.1467E-4  2.1071E-4 .00000     .01301        590    
+Ascenso y Descenso ILC.WaitTimePerEntity     5.8698E-4  1.8288E-4 .00000     .01152        590    
+Ascenso y Descenso Ins.TotalTimePerEntity   .00783      3.3839E-4 .00281     .01903        590    
+Ascenso y Descenso Juana.VATimePerEntity    .00695      1.8068E-4 .00278     .01110        590    
+Ascenso y Descenso Cuau.TotalTimePerEntity  .00762      3.3155E-4 .00278     .01843        590    
+Ascenso y Descenso Moct.WaitTimePerEntity    7.5912E-4  2.0782E-4 .00000     .01153        590    
+Ascenso y Descenso Obs.TotalTimePerEntity   .00772      3.7709E-4 .00278     .02265        590    
+Ascenso y Descenso Juana.TotalTimePerEntit  .00771      2.9295E-4 .00278     .02075        590    
+Ascenso y Descenso BPA.TotalTimePerEntity   .00744      3.2356E-4 .00278     .01772        590    
+Ascenso y Descenso Cuau.VATimePerEntity     .00700      2.1727E-4 .00278     .01111        590    
+Ascenso y Descenso ILC.VATimePerEntity      .00697      2.1054E-4 .00280     .01111        590    
+Ascenso y Descenso Zarag.VATimePerEntity    .00685      1.5263E-4 .00280     .01110        590    
+Ascenso y Descenso Chapu.WaitTimePerEntity   5.4882E-4 (Corr)     .00000     .01439        590    
+Ascenso y Descenso Sevi.TotalTimePerEntity  .00744      2.7526E-4 .00279     .01974        590    
+Ascenso y Descenso Merc.TotalTimePerEntity  .00774      2.5383E-4 .00283     .01972        590    
+Ascenso y Descenso Bald.TotalTimePerEntity  .00743      2.9246E-4 .00278     .01710        590    
+Ascenso y Descenso Cand.TotalTimePerEntity  .00791      3.3476E-4 .00279     .02209        590    
+Ascenso y Descenso SanL.TotalTimePerEntity  .00756      3.0105E-4 .00279     .02221        590    
+Ascenso y Descenso Pant.TotalTimePerEntity  .00818      4.8406E-4 .00278     .02380        590    
+Ascenso y Descenso ILC.TotalTimePerEntity   .00755      2.9325E-4 .00280     .01914        590    
+Ascenso y Descenso Ins.WaitTimePerEntity     7.2209E-4  2.0885E-4 .00000     .01257        590    
+Ascenso y Descenso Obs.WaitTimePerEntity     8.6981E-4  2.1727E-4 .00000     .01440        590    
+Ascenso y Descenso Juana.WaitTimePerEntity   7.5884E-4  1.8760E-4 .00000     .01219        590    
+Ascenso y Descenso Zarag.WaitTimePerEntity   9.1503E-4  2.1840E-4 .00000     .01394        590    
+Ascenso y Descenso SDA.TotalTimePerEntity   .00746      3.6244E-4 .00278     .01965        590    
+Ascenso y Descenso Sevi.VATimePerEntity     .00687      2.0687E-4 .00279     .01109        590    
+Ascenso y Descenso Merc.VATimePerEntity     .00705      1.7599E-4 .00283     .01110        590    
+Ascenso y Descenso Ins.VATimePerEntity      .00710      2.1305E-4 .00281     .01110        590    
+Tren.VATime                                 2.7319     (Insuf)    2.4762     2.9458         30    
+Tren.NVATime                                .00000     (Insuf)    .00000     .00000         30    
+Tren.WaitTime                               .28452     (Insuf)    .16735     .49403         30    
+Tren.TranTime                               11.374     (Insuf)    10.455     12.146         30    
+Tren.OtherTime                              .00000     (Insuf)    .00000     .00000         30    
+Tren.TotalTime                              14.391     (Insuf)    13.150     15.322         30    
+Ascenso y Descenso Obs.Queue.WaitingTime     8.6981E-4  2.1727E-4 .00000     .01440        590    
+Ascenso y Descenso Ins.Queue.WaitingTime     7.2209E-4  2.0885E-4 .00000     .01257        590    
+Ascenso y Descenso Tac.Queue.WaitingTime     7.8691E-4  1.9804E-4 .00000     .01356        590    
+Ascenso y Descenso ILC.Queue.WaitingTime     5.8698E-4  1.8288E-4 .00000     .01152        590    
+Ascenso y Descenso Cuau.Queue.WaitingTime    6.1467E-4  2.1071E-4 .00000     .01301        590    
+Ascenso y Descenso GF.Queue.WaitingTime      7.7657E-4  2.2422E-4 .00000     .01314        590    
+Ascenso y Descenso Chapu.Queue.WaitingTime   5.4882E-4 (Corr)     .00000     .01439        590    
+Ascenso y Descenso Bal.Queue.WaitingTime     7.2222E-4  2.1630E-4 .00000     .01246        590    
+Ascenso y Descenso Sevi.Queue.WaitingTime    5.7555E-4  1.7523E-4 .00000     .01070        590    
+Ascenso y Descenso SDA.Queue.WaitingTime     5.7054E-4  2.2176E-4 .00000     .01406        590    
+Ascenso y Descenso BPA.Queue.WaitingTime     5.6653E-4  1.8581E-4 .00000     .01093        590    
+Ascenso y Descenso Juana.Queue.WaitingTime   7.5884E-4  1.8760E-4 .00000     .01219        590    
+Ascenso y Descenso PinS.Queue.WaitingTime    7.2300E-4  1.8729E-4 .00000     .01348        590    
+Ascenso y Descenso Cand.Queue.WaitingTime    8.9807E-4  2.2272E-4 .00000     .01118        590    
+Ascenso y Descenso SanL.Queue.WaitingTime    6.4662E-4  1.9104E-4 .00000     .01374        590    
+Ascenso y Descenso Pant.Queue.WaitingTime   .00121      3.6077E-4 .00000     .01654        590    
+Ascenso y Descenso Zarag.Queue.WaitingTime   9.1503E-4  2.1840E-4 .00000     .01394        590    
+Ascenso y Descenso Merc.Queue.WaitingTime    6.9401E-4 (Corr)     .00000     .01322        590    
+Ascenso y Descenso Moct.Queue.WaitingTime    7.5912E-4  2.0782E-4 .00000     .01153        590    
+Ascenso y Descenso Bald.Queue.WaitingTime    5.1708E-4  1.6202E-4 .00000     .01140        590    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Tren.WIP                                    23.336     (Insuf)    .00000     30.000     .00000    
+Estacion BPA.NumberBusy                     .21910     (Corr)     .00000     1.0000     .00000    
+Estacion BPA.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion BPA.Utilization                    .21910     (Corr)     .00000     1.0000     .00000    
+Estacion ILC.NumberBusy                     .22220     (Corr)     .00000     1.0000     .00000    
+Estacion ILC.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion ILC.Utilization                    .22220     (Corr)     .00000     1.0000     .00000    
+Estacion Ins.NumberBusy                     .22655     (Corr)     .00000     1.0000     .00000    
+Estacion Ins.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Ins.Utilization                    .22655     (Corr)     .00000     1.0000     .00000    
+Estacion Tac.NumberBusy                     .21819     (Corr)     .00000     1.0000     .00000    
+Estacion Tac.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Tac.Utilization                    .21819     (Corr)     .00000     1.0000     .00000    
+Estacion Bal.NumberBusy                     .22413     (Corr)     .00000     1.0000     .00000    
+Estacion Bal.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Bal.Utilization                    .22413     (Corr)     .00000     1.0000     .00000    
+Estacion Obs.NumberBusy                     .21834     (Corr)     .00000     1.0000     .00000    
+Estacion Obs.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Obs.Utilization                    .21834     (Corr)     .00000     1.0000     .00000    
+Estacion SDA.NumberBusy                     .21973     (Corr)     .00000     1.0000     .00000    
+Estacion SDA.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion SDA.Utilization                    .21973     (Corr)     .00000     1.0000     .00000    
+Estacion GF.NumberBusy                      .21364     (Corr)     .00000     1.0000     .00000    
+Estacion GF.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion GF.Utilization                     .21364     (Corr)     .00000     1.0000     .00000    
+Estacion Chapu.NumberBusy                   .23002     (Corr)     .00000     1.0000     .00000    
+Estacion Chapu.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Chapu.Utilization                  .23002     (Corr)     .00000     1.0000     .00000    
+Estacion Pant.NumberBusy                    .22217     (Corr)     .00000     1.0000     .00000    
+Estacion Pant.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Pant.Utilization                   .22217     (Corr)     .00000     1.0000     .00000    
+Estacion SanL.NumberBusy                    .22037     (Corr)     .00000     1.0000     .00000    
+Estacion SanL.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion SanL.Utilization                   .22037     (Corr)     .00000     1.0000     .00000    
+Estacion Zarag.NumberBusy                   .21838     (Corr)     .00000     1.0000     .00000    
+Estacion Zarag.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Zarag.Utilization                  .21838     (Corr)     .00000     1.0000     .00000    
+Estacion Bald.NumberBusy                    .22056     (Corr)     .00000     1.0000     .00000    
+Estacion Bald.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Bald.Utilization                   .22056     (Corr)     .00000     1.0000     .00000    
+Estacion Cand.NumberBusy                    .22368     (Corr)     .00000     1.0000     .00000    
+Estacion Cand.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Cand.Utilization                   .22368     (Corr)     .00000     1.0000     .00000    
+Estacion Cuau.NumberBusy                    .22334     (Corr)     .00000     1.0000     .00000    
+Estacion Cuau.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Cuau.Utilization                   .22334     (Corr)     .00000     1.0000     .00000    
+Estacion PinS.NumberBusy                    .21932     (Corr)     .00000     1.0000     .00000    
+Estacion PinS.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion PinS.Utilization                   .21932     (Corr)     .00000     1.0000     .00000    
+Estacion Merc.NumberBusy                    .22469     (Corr)     .00000     1.0000     .00000    
+Estacion Merc.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Merc.Utilization                   .22469     (Corr)     .00000     1.0000     .00000    
+Estacion Sevi.NumberBusy                    .21902     (Corr)     .00000     1.0000     .00000    
+Estacion Sevi.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Sevi.Utilization                   .21902     (Corr)     .00000     1.0000     .00000    
+Estacion Juana.NumberBusy                   .22175     (Corr)     .00000     1.0000     .00000    
+Estacion Juana.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Juana.Utilization                  .22175     (Corr)     .00000     1.0000     .00000    
+Estacion Moct.NumberBusy                    .22506     (Corr)     .00000     1.0000     .00000    
+Estacion Moct.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Estacion Moct.Utilization                   .22506     (Corr)     .00000     1.0000     .00000    
+Ascenso y Descenso Obs.Queue.NumberInQueue  .02774     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Ins.Queue.NumberInQueue  .02303     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Tac.Queue.NumberInQueue  .02510     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso ILC.Queue.NumberInQueue  .01872     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Cuau.Queue.NumberInQueu  .01960     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso GF.Queue.NumberInQueue   .02477     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Chapu.Queue.NumberInQue  .01750     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Bal.Queue.NumberInQueue  .02303     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Sevi.Queue.NumberInQueu  .01836     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso SDA.Queue.NumberInQueue  .01820     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso BPA.Queue.NumberInQueue  .01807     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Juana.Queue.NumberInQue  .02420     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso PinS.Queue.NumberInQueu  .02306     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Cand.Queue.NumberInQueu  .02864     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso SanL.Queue.NumberInQueu  .02062     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Pant.Queue.NumberInQueu  .03875     (Insuf)    .00000     3.0000     .00000    
+Ascenso y Descenso Zarag.Queue.NumberInQue  .02918     (Insuf)    .00000     3.0000     .00000    
+Ascenso y Descenso Merc.Queue.NumberInQueu  .02213     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Moct.Queue.NumberInQueu  .02421     (Insuf)    .00000     2.0000     .00000    
+Ascenso y Descenso Bald.Queue.NumberInQueu  .01649     (Insuf)    .00000     2.0000     .00000    
+cuau1.NumEntTrans                           .32886     (Corr)     .00000     3.0000     .00000    
+cuau2.NumEntTrans                           .00000     (Insuf)    .00000     .00000     .00000    
+sevi2.NumEntTrans                           .00000     (Insuf)    .00000     .00000     .00000    
+sevi1.NumEntTrans                           .46985     (Corr)     .00000     4.0000     .00000    
+sanlaz2.NumEntTrans                         .00000     (Insuf)    .00000     .00000     .00000    
+sanlaz1.NumEntTrans                         .37100     (Corr)     .00000     3.0000     .00000    
+merc2.NumEntTrans                           .00000     (Insuf)    .00000     .00000     .00000    
+merc1.NumEntTrans                           .51026     (Corr)     .00000     3.0000     .00000    
+cand1.NumEntTrans                           .60963     (Corr)     .00000     4.0000     .00000    
+cand2.NumEntTrans                           .00000     (Insuf)    .00000     .00000     .00000    
+moct1.NumEntTrans                           .50299     (Corr)     .00000     4.0000     .00000    
+moct2.NumEntTrans                           .00000     (Insuf)    .00000     .00000     .00000    
+zarag1.NumEntTrans                          .87736     (Corr)     .00000     5.0000     .00000    
+zarag2.NumEntTrans                          .00000     (Insuf)    .00000     .00000     .00000    
+obs2.NumEntTrans                            .00000     (Insuf)    .00000     .00000     .00000    
+obs1.NumEntTrans                            .83730     (Corr)     .00000     5.0000     .00000    
+chap1.NumEntTrans                           .38315     (Corr)     .00000     3.0000     .00000    
+chap2.NumEntTrans                           .00000     (Insuf)    .00000     .00000     .00000    
+gomFa1.NumEntTrans                          .53670     (Corr)     .00000     4.0000     .00000    
+gomFa2.NumEntTrans                          .00000     (Insuf)    .00000     .00000     .00000    
+isalacat2.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+isalacat1.NumEntTrans                       .31346     (Corr)     .00000     3.0000     .00000    
+insrg2.NumEntTrans                          .00000     (Insuf)    .00000     .00000     .00000    
+insrg1.NumEntTrans                          .56205     (Corr)     .00000     4.0000     .00000    
+pant2.NumEntTrans                           8.5495     (Corr)     .00000     20.000     .00000    
+pant1.NumEntTrans                           .00000     (Insuf)    .00000     .00000     .00000    
+bald2.NumEntTrans                           .00000     (Insuf)    .00000     .00000     .00000    
+bald1.NumEntTrans                           .36061     (Corr)     .00000     3.0000     .00000    
+ptoAer1.NumEntTrans                         .45802     (Corr)     .00000     3.0000     .00000    
+ptoAer2.NumEntTrans                         .00000     (Insuf)    .00000     .00000     .00000    
+saltagua1.NumEntTrans                       .35144     (Corr)     .00000     3.0000     .00000    
+saltagua2.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+pinsua1.NumEntTrans                         .53573     (Corr)     .00000     3.0000     .00000    
+tac1.NumEntTrans                            .77205     (Corr)     .00000     4.0000     .00000    
+pinsua2.NumEntTrans                         .00000     (Insuf)    .00000     .00000     .00000    
+tac2.NumEntTrans                            .00000     (Insuf)    .00000     .00000     .00000    
+juana1.NumEntTrans                          .67255     (Corr)     .00000     4.0000     .00000    
+juana2.NumEntTrans                          .00000     (Insuf)    .00000     .00000     .00000    
+balv1.NumEntTrans                           .44269     (Corr)     .00000     3.0000     .00000    
+balv2.NumEntTrans                           .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Ascenso y Descenso Chapu Accum VA Time      4.2554    
+Ascenso y Descenso Ins Accum Wait Time      .42603    
+Ascenso y Descenso Zarag Number Out         590.00    
+Ascenso y Descenso Zarag Number In          590.00    
+Ascenso y Descenso Cuau Number Out          590.00    
+Ascenso y Descenso Sevi Number Out          590.00    
+Ascenso y Descenso Merc Number Out          590.00    
+Ascenso y Descenso Obs Accum Wait Time      .51319    
+Ascenso y Descenso Cuau Accum VA Time       4.1317    
+Ascenso y Descenso Moct Number Out          590.00    
+Ascenso y Descenso SDA Accum Wait Time      .33662    
+Ascenso y Descenso Bald Number In           590.00    
+Ascenso y Descenso Cand Number In           590.00    
+Ascenso y Descenso SanL Number In           590.00    
+Ascenso y Descenso Pant Number In           590.00    
+Ascenso y Descenso Moct Accum Wait Time     .44788    
+Ascenso y Descenso Juana Number Out         590.00    
+Ascenso y Descenso Juana Number In          590.00    
+Ascenso y Descenso Sevi Accum Wait Time     .33958    
+Ascenso y Descenso Merc Accum Wait Time     .40946    
+Ascenso y Descenso Cuau Number In           590.00    
+Ascenso y Descenso PinS Number In           590.00    
+Ascenso y Descenso GF Accum VA Time         3.9523    
+Ascenso y Descenso Bald Accum VA Time       4.0804    
+Ascenso y Descenso Cand Accum VA Time       4.1380    
+Ascenso y Descenso SanL Accum VA Time       4.0769    
+Ascenso y Descenso Pant Accum VA Time       4.1101    
+Ascenso y Descenso BPA Accum Wait Time      .33425    
+Ascenso y Descenso Obs Accum VA Time        4.0393    
+Ascenso y Descenso Ins Accum VA Time        4.1911    
+Ascenso y Descenso PinS Number Out          590.00    
+Ascenso y Descenso Ins Number Out           590.00    
+Ascenso y Descenso Ins Number In            590.00    
+Ascenso y Descenso PinS Accum Wait Time     .42657    
+Ascenso y Descenso Bal Accum VA Time        4.1464    
+Ascenso y Descenso Moct Number In           590.00    
+Ascenso y Descenso Chapu Accum Wait Time    .32381    
+Ascenso y Descenso GF Number Out            590.00    
+Ascenso y Descenso GF Number In             590.00    
+Ascenso y Descenso Obs Number Out           590.00    
+Ascenso y Descenso Obs Number In            590.00    
+Ascenso y Descenso ILC Number Out           590.00    
+Ascenso y Descenso ILC Number In            590.00    
+Ascenso y Descenso Cuau Accum Wait Time     .36265    
+Ascenso y Descenso ILC Accum Wait Time      .34632    
+Ascenso y Descenso SDA Accum VA Time        4.0650    
+Ascenso y Descenso BPA Accum VA Time        4.0534    
+Ascenso y Descenso Sevi Number In           590.00    
+Ascenso y Descenso Merc Number In           590.00    
+Ascenso y Descenso Juana Accum VA Time      4.1022    
+Ascenso y Descenso Juana Accum Wait Time    .44771    
+Ascenso y Descenso Tac Accum Wait Time      .46428    
+Ascenso y Descenso Bal Accum Wait Time      .42611    
+Ascenso y Descenso BPA Number Out           590.00    
+Ascenso y Descenso BPA Number In            590.00    
+Ascenso y Descenso Zarag Accum Wait Time    .53987    
+Ascenso y Descenso Moct Accum VA Time       4.1636    
+Ascenso y Descenso Sevi Accum VA Time       4.0518    
+Ascenso y Descenso Merc Accum VA Time       4.1567    
+Ascenso y Descenso Bald Accum Wait Time     .30508    
+Ascenso y Descenso Cand Accum Wait Time     .52986    
+Ascenso y Descenso SanL Accum Wait Time     .38150    
+Ascenso y Descenso Pant Accum Wait Time     .71679    
+Ascenso y Descenso Chapu Number In          590.00    
+Ascenso y Descenso Tac Accum VA Time        4.0364    
+Ascenso y Descenso ILC Accum VA Time        4.1107    
+Ascenso y Descenso GF Accum Wait Time       .45818    
+Ascenso y Descenso SDA Number Out           590.00    
+Ascenso y Descenso SDA Number In            590.00    
+Ascenso y Descenso Zarag Accum VA Time      4.0400    
+Ascenso y Descenso Chapu Number Out         590.00    
+Ascenso y Descenso Tac Number Out           590.00    
+Ascenso y Descenso Tac Number In            590.00    
+Ascenso y Descenso Bal Number Out           590.00    
+Ascenso y Descenso Bal Number In            590.00    
+Ascenso y Descenso Bald Number Out          590.00    
+Ascenso y Descenso Cand Number Out          590.00    
+Ascenso y Descenso SanL Number Out          590.00    
+Ascenso y Descenso Pant Number Out          590.00    
+Ascenso y Descenso PinS Accum VA Time       4.0573    
+Tren.NumberIn                               30.000    
+Tren.NumberOut                              30.000    
+Estacion BPA.NumberSeized                   590.00    
+Estacion BPA.ScheduledUtilization           .21910    
+Estacion ILC.NumberSeized                   590.00    
+Estacion ILC.ScheduledUtilization           .22220    
+Estacion Ins.NumberSeized                   590.00    
+Estacion Ins.ScheduledUtilization           .22655    
+Estacion Tac.NumberSeized                   590.00    
+Estacion Tac.ScheduledUtilization           .21819    
+Estacion Bal.NumberSeized                   590.00    
+Estacion Bal.ScheduledUtilization           .22413    
+Estacion Obs.NumberSeized                   590.00    
+Estacion Obs.ScheduledUtilization           .21834    
+Estacion SDA.NumberSeized                   590.00    
+Estacion SDA.ScheduledUtilization           .21973    
+Estacion GF.NumberSeized                    590.00    
+Estacion GF.ScheduledUtilization            .21364    
+Estacion Chapu.NumberSeized                 590.00    
+Estacion Chapu.ScheduledUtilization         .23002    
+Estacion Pant.NumberSeized                  590.00    
+Estacion Pant.ScheduledUtilization          .22217    
+Estacion SanL.NumberSeized                  590.00    
+Estacion SanL.ScheduledUtilization          .22037    
+Estacion Zarag.NumberSeized                 590.00    
+Estacion Zarag.ScheduledUtilization         .21838    
+Estacion Bald.NumberSeized                  590.00    
+Estacion Bald.ScheduledUtilization          .22056    
+Estacion Cand.NumberSeized                  590.00    
+Estacion Cand.ScheduledUtilization          .22368    
+Estacion Cuau.NumberSeized                  590.00    
+Estacion Cuau.ScheduledUtilization          .22334    
+Estacion PinS.NumberSeized                  590.00    
+Estacion PinS.ScheduledUtilization          .21932    
+Estacion Merc.NumberSeized                  590.00    
+Estacion Merc.ScheduledUtilization          .22469    
+Estacion Sevi.NumberSeized                  590.00    
+Estacion Sevi.ScheduledUtilization          .21902    
+Estacion Juana.NumberSeized                 590.00    
+Estacion Juana.ScheduledUtilization         .22175    
+Estacion Moct.NumberSeized                  590.00    
+Estacion Moct.ScheduledUtilization          .22506    
+cuau1.AccumVATime                           4.1317    
+cuau1.AccumNVATime                          .00000    
+cuau1.AccumWaitTime                         .36265    
+cuau1.AccumTranTime                         .00000    
+cuau1.AccumOtherTime                        .00000    
+cuau1.TotalAccumTime                        4.4943    
+cuau2.AccumVATime                           .00000    
+cuau2.AccumNVATime                          .00000    
+cuau2.AccumWaitTime                         .00000    
+cuau2.AccumTranTime                         .00000    
+cuau2.AccumOtherTime                        .00000    
+cuau2.TotalAccumTime                        .00000    
+sevi2.AccumVATime                           .00000    
+sevi2.AccumNVATime                          .00000    
+sevi2.AccumWaitTime                         .00000    
+sevi2.AccumTranTime                         .00000    
+sevi2.AccumOtherTime                        .00000    
+sevi2.TotalAccumTime                        .00000    
+sevi1.AccumVATime                           4.0518    
+sevi1.AccumNVATime                          .00000    
+sevi1.AccumWaitTime                         .33958    
+sevi1.AccumTranTime                         .00000    
+sevi1.AccumOtherTime                        .00000    
+sevi1.TotalAccumTime                        4.3913    
+sanlaz2.AccumVATime                         .00000    
+sanlaz2.AccumNVATime                        .00000    
+sanlaz2.AccumWaitTime                       .00000    
+sanlaz2.AccumTranTime                       .00000    
+sanlaz2.AccumOtherTime                      .00000    
+sanlaz2.TotalAccumTime                      .00000    
+sanlaz1.AccumVATime                         4.0769    
+sanlaz1.AccumNVATime                        .00000    
+sanlaz1.AccumWaitTime                       .38150    
+sanlaz1.AccumTranTime                       .00000    
+sanlaz1.AccumOtherTime                      .00000    
+sanlaz1.TotalAccumTime                      4.4584    
+merc2.AccumVATime                           .00000    
+merc2.AccumNVATime                          .00000    
+merc2.AccumWaitTime                         .00000    
+merc2.AccumTranTime                         .00000    
+merc2.AccumOtherTime                        .00000    
+merc2.TotalAccumTime                        .00000    
+merc1.AccumVATime                           4.1567    
+merc1.AccumNVATime                          .00000    
+merc1.AccumWaitTime                         .40946    
+merc1.AccumTranTime                         .00000    
+merc1.AccumOtherTime                        .00000    
+merc1.TotalAccumTime                        4.5661    
+cand1.AccumVATime                           4.1380    
+cand1.AccumNVATime                          .00000    
+cand1.AccumWaitTime                         .52986    
+cand1.AccumTranTime                         .00000    
+cand1.AccumOtherTime                        .00000    
+cand1.TotalAccumTime                        4.6679    
+cand2.AccumVATime                           .00000    
+cand2.AccumNVATime                          .00000    
+cand2.AccumWaitTime                         .00000    
+cand2.AccumTranTime                         .00000    
+cand2.AccumOtherTime                        .00000    
+cand2.TotalAccumTime                        .00000    
+moct1.AccumVATime                           4.1636    
+moct1.AccumNVATime                          .00000    
+moct1.AccumWaitTime                         .44788    
+moct1.AccumTranTime                         .00000    
+moct1.AccumOtherTime                        .00000    
+moct1.TotalAccumTime                        4.6115    
+moct2.AccumVATime                           .00000    
+moct2.AccumNVATime                          .00000    
+moct2.AccumWaitTime                         .00000    
+moct2.AccumTranTime                         .00000    
+moct2.AccumOtherTime                        .00000    
+moct2.TotalAccumTime                        .00000    
+zarag1.AccumVATime                          4.0400    
+zarag1.AccumNVATime                         .00000    
+zarag1.AccumWaitTime                        .53987    
+zarag1.AccumTranTime                        .00000    
+zarag1.AccumOtherTime                       .00000    
+zarag1.TotalAccumTime                       4.5799    
+zarag2.AccumVATime                          .00000    
+zarag2.AccumNVATime                         .00000    
+zarag2.AccumWaitTime                        .00000    
+zarag2.AccumTranTime                        .00000    
+zarag2.AccumOtherTime                       .00000    
+zarag2.TotalAccumTime                       .00000    
+obs2.AccumVATime                            .00000    
+obs2.AccumNVATime                           .00000    
+obs2.AccumWaitTime                          .00000    
+obs2.AccumTranTime                          .00000    
+obs2.AccumOtherTime                         .00000    
+obs2.TotalAccumTime                         .00000    
+obs1.AccumVATime                            4.0393    
+obs1.AccumNVATime                           .00000    
+obs1.AccumWaitTime                          .51319    
+obs1.AccumTranTime                          .00000    
+obs1.AccumOtherTime                         .00000    
+obs1.TotalAccumTime                         4.5525    
+chap1.AccumVATime                           4.2554    
+chap1.AccumNVATime                          .00000    
+chap1.AccumWaitTime                         .32381    
+chap1.AccumTranTime                         .00000    
+chap1.AccumOtherTime                        .00000    
+chap1.TotalAccumTime                        4.5792    
+chap2.AccumVATime                           .00000    
+chap2.AccumNVATime                          .00000    
+chap2.AccumWaitTime                         .00000    
+chap2.AccumTranTime                         .00000    
+chap2.AccumOtherTime                        .00000    
+chap2.TotalAccumTime                        .00000    
+gomFa1.AccumVATime                          3.9523    
+gomFa1.AccumNVATime                         .00000    
+gomFa1.AccumWaitTime                        .45818    
+gomFa1.AccumTranTime                        .00000    
+gomFa1.AccumOtherTime                       .00000    
+gomFa1.TotalAccumTime                       4.4105    
+gomFa2.AccumVATime                          .00000    
+gomFa2.AccumNVATime                         .00000    
+gomFa2.AccumWaitTime                        .00000    
+gomFa2.AccumTranTime                        .00000    
+gomFa2.AccumOtherTime                       .00000    
+gomFa2.TotalAccumTime                       .00000    
+isalacat2.AccumVATime                       .00000    
+isalacat2.AccumNVATime                      .00000    
+isalacat2.AccumWaitTime                     .00000    
+isalacat2.AccumTranTime                     .00000    
+isalacat2.AccumOtherTime                    .00000    
+isalacat2.TotalAccumTime                    .00000    
+isalacat1.AccumVATime                       4.1107    
+isalacat1.AccumNVATime                      .00000    
+isalacat1.AccumWaitTime                     .34632    
+isalacat1.AccumTranTime                     .00000    
+isalacat1.AccumOtherTime                    .00000    
+isalacat1.TotalAccumTime                    4.4570    
+insrg2.AccumVATime                          .00000    
+insrg2.AccumNVATime                         .00000    
+insrg2.AccumWaitTime                        .00000    
+insrg2.AccumTranTime                        .00000    
+insrg2.AccumOtherTime                       .00000    
+insrg2.TotalAccumTime                       .00000    
+insrg1.AccumVATime                          4.1911    
+insrg1.AccumNVATime                         .00000    
+insrg1.AccumWaitTime                        .42603    
+insrg1.AccumTranTime                        .00000    
+insrg1.AccumOtherTime                       .00000    
+insrg1.TotalAccumTime                       4.6171    
+pant2.AccumVATime                           3.8911    
+pant2.AccumNVATime                          .00000    
+pant2.AccumWaitTime                         .70993    
+pant2.AccumTranTime                         .00000    
+pant2.AccumOtherTime                        .00000    
+pant2.TotalAccumTime                        4.6010    
+pant1.AccumVATime                           .00000    
+pant1.AccumNVATime                          .00000    
+pant1.AccumWaitTime                         .00000    
+pant1.AccumTranTime                         .00000    
+pant1.AccumOtherTime                        .00000    
+pant1.TotalAccumTime                        .00000    
+bald2.AccumVATime                           .00000    
+bald2.AccumNVATime                          .00000    
+bald2.AccumWaitTime                         .00000    
+bald2.AccumTranTime                         .00000    
+bald2.AccumOtherTime                        .00000    
+bald2.TotalAccumTime                        .00000    
+bald1.AccumVATime                           4.0804    
+bald1.AccumNVATime                          .00000    
+bald1.AccumWaitTime                         .30508    
+bald1.AccumTranTime                         .00000    
+bald1.AccumOtherTime                        .00000    
+bald1.TotalAccumTime                        4.3855    
+ptoAer1.AccumVATime                         4.0534    
+ptoAer1.AccumNVATime                        .00000    
+ptoAer1.AccumWaitTime                       .33425    
+ptoAer1.AccumTranTime                       .00000    
+ptoAer1.AccumOtherTime                      .00000    
+ptoAer1.TotalAccumTime                      4.3876    
+ptoAer2.AccumVATime                         .00000    
+ptoAer2.AccumNVATime                        .00000    
+ptoAer2.AccumWaitTime                       .00000    
+ptoAer2.AccumTranTime                       .00000    
+ptoAer2.AccumOtherTime                      .00000    
+ptoAer2.TotalAccumTime                      .00000    
+saltagua1.AccumVATime                       4.0650    
+saltagua1.AccumNVATime                      .00000    
+saltagua1.AccumWaitTime                     .33662    
+saltagua1.AccumTranTime                     .00000    
+saltagua1.AccumOtherTime                    .00000    
+saltagua1.TotalAccumTime                    4.4017    
+saltagua2.AccumVATime                       .00000    
+saltagua2.AccumNVATime                      .00000    
+saltagua2.AccumWaitTime                     .00000    
+saltagua2.AccumTranTime                     .00000    
+saltagua2.AccumOtherTime                    .00000    
+saltagua2.TotalAccumTime                    .00000    
+pinsua1.AccumVATime                         4.0573    
+pinsua1.AccumNVATime                        .00000    
+pinsua1.AccumWaitTime                       .42657    
+pinsua1.AccumTranTime                       .00000    
+pinsua1.AccumOtherTime                      .00000    
+pinsua1.TotalAccumTime                      4.4839    
+tac1.AccumVATime                            4.0364    
+tac1.AccumNVATime                           .00000    
+tac1.AccumWaitTime                          .46428    
+tac1.AccumTranTime                          .00000    
+tac1.AccumOtherTime                         .00000    
+tac1.TotalAccumTime                         4.5007    
+pinsua2.AccumVATime                         .00000    
+pinsua2.AccumNVATime                        .00000    
+pinsua2.AccumWaitTime                       .00000    
+pinsua2.AccumTranTime                       .00000    
+pinsua2.AccumOtherTime                      .00000    
+pinsua2.TotalAccumTime                      .00000    
+tac2.AccumVATime                            .00000    
+tac2.AccumNVATime                           .00000    
+tac2.AccumWaitTime                          .00000    
+tac2.AccumTranTime                          .00000    
+tac2.AccumOtherTime                         .00000    
+tac2.TotalAccumTime                         .00000    
+juana1.AccumVATime                          4.1022    
+juana1.AccumNVATime                         .00000    
+juana1.AccumWaitTime                        .44771    
+juana1.AccumTranTime                        .00000    
+juana1.AccumOtherTime                       .00000    
+juana1.TotalAccumTime                       4.5500    
+juana2.AccumVATime                          .00000    
+juana2.AccumNVATime                         .00000    
+juana2.AccumWaitTime                        .00000    
+juana2.AccumTranTime                        .00000    
+juana2.AccumOtherTime                       .00000    
+juana2.TotalAccumTime                       .00000    
+balv1.AccumVATime                           4.1464    
+balv1.AccumNVATime                          .00000    
+balv1.AccumWaitTime                         .42611    
+balv1.AccumTranTime                         .00000    
+balv1.AccumOtherTime                        .00000    
+balv1.TotalAccumTime                        4.5725    
+balv2.AccumVATime                           .00000    
+balv2.AccumNVATime                          .00000    
+balv2.AccumWaitTime                         .00000    
+balv2.AccumTranTime                         .00000    
+balv2.AccumOtherTime                        .00000    
+balv2.TotalAccumTime                        .00000    
+System.NumberOut                            30.000    
+
+
+Simulation run time: 0.25 minutes.
+Simulation run complete.

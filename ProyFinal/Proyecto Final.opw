@@ -1,0 +1,107 @@
+[RESOURCES]
+Estacion BPA
+Estacion ILC
+Estacion Ins
+Estacion Tac
+Estacion Bal
+Estacion Obs
+Estacion SDA
+Estacion GF
+Estacion Chapu
+Estacion Pant
+Estacion SanL
+Estacion Zarag
+Estacion Bald
+Estacion Cand
+Estacion Cuau
+Estacion PinS
+Estacion Merc
+Estacion Sevi
+Estacion Juana
+Estacion Moct
+[VARIABLES]
+Ascenso y Descenso Chapu.VATime
+Ascenso y Descenso Ins.WaitTime
+Ascenso y Descenso Zarag.NumberOut
+Ascenso y Descenso Zarag.NumberIn
+Ascenso y Descenso Cuau.NumberOut
+Ascenso y Descenso Merc.NumberOut
+Ascenso y Descenso Sevi.NumberOut
+Ascenso y Descenso Obs.WaitTime
+Ascenso y Descenso Cuau.VATime
+Ascenso y Descenso Moct.NumberOut
+Ascenso y Descenso SDA.WaitTime
+Ascenso y Descenso Bald.NumberIn
+Ascenso y Descenso SanL.NumberIn
+Ascenso y Descenso Cand.NumberIn
+Ascenso y Descenso Pant.NumberIn
+Ascenso y Descenso Moct.WaitTime
+Ascenso y Descenso Juana.NumberOut
+Dispose 2.NumberOut
+Ascenso y Descenso Juana.NumberIn
+Ascenso y Descenso Merc.WaitTime
+Ascenso y Descenso Sevi.WaitTime
+Ascenso y Descenso Cuau.NumberIn
+Ascenso y Descenso PinS.NumberIn
+Ascenso y Descenso GF.VATime
+Ascenso y Descenso Bald.VATime
+Ascenso y Descenso SanL.VATime
+Ascenso y Descenso Cand.VATime
+Ascenso y Descenso Pant.VATime
+Ascenso y Descenso BPA.WaitTime
+Ascenso y Descenso Ins.VATime
+Ascenso y Descenso Obs.VATime
+Ascenso y Descenso PinS.NumberOut
+Ascenso y Descenso Ins.NumberIn
+Ascenso y Descenso Ins.NumberOut
+Ascenso y Descenso PinS.WaitTime
+Ascenso y Descenso Bal.VATime
+Ascenso y Descenso Moct.NumberIn
+Ascenso y Descenso Chapu.WaitTime
+Ascenso y Descenso GF.NumberOut
+Ascenso y Descenso GF.NumberIn
+Ascenso y Descenso Obs.NumberIn
+Ascenso y Descenso Obs.NumberOut
+Ascenso y Descenso ILC.NumberIn
+Ascenso y Descenso ILC.NumberOut
+Ascenso y Descenso Cuau.WaitTime
+Ascenso y Descenso ILC.WaitTime
+Create Tren.NumberOut
+Ascenso y Descenso BPA.VATime
+Ascenso y Descenso SDA.VATime
+Ascenso y Descenso Merc.NumberIn
+Ascenso y Descenso Sevi.NumberIn
+Ascenso y Descenso Juana.VATime
+Ascenso y Descenso Juana.WaitTime
+Ascenso y Descenso Tac.WaitTime
+Ascenso y Descenso Bal.WaitTime
+Ascenso y Descenso BPA.NumberIn
+Ascenso y Descenso BPA.NumberOut
+Ascenso y Descenso Zarag.WaitTime
+Ascenso y Descenso Moct.VATime
+Pas
+Ascenso y Descenso Merc.VATime
+Ascenso y Descenso Sevi.VATime
+Ascenso y Descenso Bald.WaitTime
+Ascenso y Descenso SanL.WaitTime
+Ascenso y Descenso Cand.WaitTime
+Ascenso y Descenso Pant.WaitTime
+Ascenso y Descenso Chapu.NumberIn
+Decide Seguir Operando.NumberOut False
+Ascenso y Descenso Tac.VATime
+Ascenso y Descenso ILC.VATime
+Ascenso y Descenso GF.WaitTime
+Ascenso y Descenso SDA.NumberIn
+Ascenso y Descenso SDA.NumberOut
+Ascenso y Descenso Zarag.VATime
+Decide Seguir Operando.NumberOut True
+Ascenso y Descenso Chapu.NumberOut
+Ascenso y Descenso Tac.NumberIn
+Ascenso y Descenso Tac.NumberOut
+Ascenso y Descenso Bal.NumberIn
+Ascenso y Descenso Bal.NumberOut
+Ascenso y Descenso Bald.NumberOut
+Ascenso y Descenso SanL.NumberOut
+Ascenso y Descenso Cand.NumberOut
+Ascenso y Descenso Pant.NumberOut
+Ascenso y Descenso PinS.VATime
